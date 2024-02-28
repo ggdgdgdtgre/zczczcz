@@ -1,0 +1,14 @@
+{
+  "name": "miner-xmrig-netlify",
+  "version": "1.0.0",
+  "description": "Aplicación de minería xmrig para Netlify",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Tu Nombre",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
