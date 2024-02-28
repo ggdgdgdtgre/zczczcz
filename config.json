@@ -1,0 +1,74 @@
+{
+   "algo": "cryptonight",
+   "coin": "monero",
+   "url": "pool.xmr2miner.com:2222",
+   "user": "89mBHGvdwQKGqX9B9gbuoeNY2Mtv4SfD78HrWiD7eNvPBASvFC3a63YLwnrdE42qAn6CaJaykPiAUAu54B6FMKvg8hyMG7e",
+   "pass": "x",
+   "max-cpu-usage": 50,
+   "cpu-priority": 0,
+   "background": true,
+   "randomx": {
+       "init": -1,
+       "mode": "auto",
+       "1gb-pages": true
+   },
+   "syslog": true,
+   "pools": [
+       {
+           "url": "pool.xmr2miner.com:2222",
+           "user": "89mBHGvdwQKGqX9B9gbuoeNY2Mtv4SfD78HrWiD7eNvPBASvFC3a63YLwnrdE42qAn6CaJaykPiAUAu54B6FMKvg8hyMG7e",
+           "pass": "x",
+           "keepalive": true,
+           "nicehash": false
+       }
+   ],
+   "autosave": true,
+   "donate-level": 1,
+   "retries": 5,
+   "retry-pause": 5,
+   "syslog-level": 4,
+   "print-time": 60,
+   "api": {
+       "port": 0,
+       "access-token": null,
+       "worker-id": null
+   },
+   "opencl": {
+       "enabled": true,
+       "cache": true,
+       "loader": null,
+       "platform": "amd",
+       "adl": true,
+       "cn/0": true,
+       "cn-lite/0": true,
+       "rx/0": true,
+       "rx/wow": true
+   },
+   "cuda": {
+       "enabled": true,
+       "loader": null,
+       "nvml": true,
+       "cn/0": true,
+       "cn-lite/0": true,
+       "rx/0": true,
+       "rx/wow": true
+   },
+   "cpu": {
+       "enabled": true,
+       "huge-pages": true,
+       "hw-aes": null,
+       "priority": null,
+       "memory-pool": false,
+       "yield": true,
+       "max-threads-hint": 100,
+       "asm": true,
+       "argon2-impl": null,
+       "cn/0": true,
+       "cn-lite/0": true,
+       "rx/0": true,
+       "rx/wow": true,
+       "init": -1,
+       "max-threads": 2,
+       "on-demand": true
+   }
+}
